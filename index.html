@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Chocolate Corner</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column; /* Stack items vertically */
+      align-items: center;
+      text-align: center;
+    }
+
+    #header-container {
+      display: flex;
+      align-items: center; /* Center items horizontally */
+    }
+    h1 {
+      flex: 1; /* Take remaining space in the flex container */
+    }
+    #second-title{
+      display: flex;
+      align-items: center; /* Center items horizontally */
+    }
+    h2 {
+      flex: 1; /* Take remaining space in the flex container */
+    }
+
+    #image-container {
+      display: flex;
+      justify-content: center; /* Center items horizontally within the container */
+    }
+
+    .recipe-image {
+      width: 300px; /* Adjust the width of each image as needed */
+      height: 300px; /* Adjust the height of each image as needed */
+      margin: 10px; /* Add spacing between images */
+    }
+
+    ul {
+      list-style-type: none; /* Remove default list item bullets */
+      padding: 50; /* Remove default padding */
+      margin: 50; /* Remove default margin */
+    }
+
+    li {
+      display: inline; /* Display li elements inline */
+      margin-right: 10px; /* Add spacing between list items */
+    }
+
+    a {
+      text-decoration: none; /* Remove underline for links */
+      color: beige;
+    }
+  </style>
+  <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Cinzel Decorative';font-size: 22px;
+}
+#svg{
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    margin-left: 75px;
+    margin-top: 70px;
+    filter: brightness(0) invert(1);
+}
+</style>
+
+</head>
+<body>
+  <div id="header-container">
+    <h1>Odin Recipes</h1>
+  </div>
+
+ <div id="second-title"><h2>For chocolate lovers</h2>
+    </div>
+
+  <div id="image-container">
+    <img id="chocolat" class="recipe-image" src="img/chocolate.jpg" alt="Chocolat Recipe">
+    <img id="tiramisu" class="recipe-image" src="img/tiramisu.jpg" alt="Tiramisu Recipe">
+    <img id="cake" class="recipe-image" src="img/cake.jpg" alt="Cake Recipe">
+    <img id="hot" class="recipe-image" src="img/drink.jpg" alt="Hot Chocolate Recipe">
+  </div>
+
+ 
+  <ul>
+    <li><a href="tiramisu.html">Tiramisu</a></li>
+  </ul>
+
+  <img id="svg" src="img/chocosvg2.svg">
+</body>
+</html>

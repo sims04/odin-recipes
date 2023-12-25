@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(33, 19, 19);
+    font-size: medium;
+    font-family : poppins;
+}
+
+
+h1{ font-size: 70px;
+    color: beige;
+    font-family: 'Cinzel Decorative';
+text-align: center;
+}
+
+h2{ font-size: 50px;
+    color: beige;
+    font-family:'Cinzel Decorative';
+text-align: left;
+}
+
+
+#third-title{
+    text-align: left; /* Center items horizontally */
+    margin-right: 1325px;
+    text-decoration: double;
+  }
+
